@@ -20,15 +20,11 @@ const cocktailSchema = new mongoose.Schema(
     ],
     instructions: {
       type: String,
-      required: true,
-    },
-    glassType: {
-      type: String,
-      default: "Not specified",
+      default: "Ni določeno",
     },
     garnish: {
       type: String,
-      default: "Not specified",
+      default: "Ni določeno",
     },
   },
   {
